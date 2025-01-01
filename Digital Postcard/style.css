@@ -1,91 +1,49 @@
-/* General styles */
+/* Estilo del cuerpo */
 body {
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f8efe6; /* Fondo beige claro para un ambiente cálido */
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-/* Postcard container */
+/* Tarjeta postal */
 .postcard {
-    width: 500px;
-    border: 1px solid black;
+    background-color: #fff7e6; /* Fondo blanco con un tono cálido */
+    border: 2px solid #b2957a; /* Borde en tono marrón suave */
+    border-radius: 10px;
     padding: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: white;
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Postcard title */
-.postcard h1 {
-    font-size: 24px;
-    margin: 0;
+/* Encabezado */
+h1 {
+    color: #6b8e23; /* Verde musgo */
     margin-bottom: 10px;
-    color: black;
 }
 
-/* Content text */
-.content {
+/* Párrafo */
+p {
+    color: #d2691e; /* Naranja tipo otoño */
     margin-bottom: 20px;
 }
 
-.content p {
-    margin: 0;
-    margin-bottom: 10px;
-    color: black;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-/* Form styles */
-.form {
+/* Imagen */
+.postcard-image {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.form input, .form textarea {
-    width: 100%;
-    border: 1px solid black;
-    padding: 5px;
-    font-size: 14px;
-    font-family: 'Comic Sans MS', sans-serif;
-}
-
-.form button {
-    padding: 10px;
-    background-color: lightgray;
-    border: 1px solid black;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.form button:hover {
-    background-color: gray;
-    color: white;
-}
-
-/* Logo styles */
-.logo {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
-}
-
-.logo img {
-    width: 100%;
+    max-width: 150px;
     height: auto;
-    border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #8b4513; /* Marrón cálido */
 }
 
